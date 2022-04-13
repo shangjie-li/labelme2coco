@@ -1,0 +1,7 @@
+pedestrian: person
+cyclist: person
+car: car
+bus: bus
+truck: truck
+traffic_light: traffic_light
+traffic_sign: traffic_sign

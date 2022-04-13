@@ -1,0 +1,8 @@
+**__pycache__**
+
+images_and_labels
+
+*.jpg
+*.png
+*.jpeg
+*.json
