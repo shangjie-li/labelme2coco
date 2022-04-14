@@ -6,3 +6,4 @@ images_and_labels
 *.png
 *.jpeg
 *.json
+*.txt

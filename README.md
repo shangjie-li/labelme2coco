@@ -23,3 +23,10 @@ A Python tool for converting LABELME format into COCO format
    # If you want filter out some classes in labels, just declare what you want in the final_classes.txt and run
    python labelme2coco.py --images_root=images --labels_root=labels --output_file=instances.json --classes_file=final_classes.txt
    ```
+ - Convert COCO format into YOLO format
+   ```
+   python coco2yolo.py --json_file=instances_train2017.json
+   
+   # If you want use COCO 91to80 label map, run
+   python coco2yolo.py --json_file=instances_train2017.json --use_label_map
+   ```
