@@ -1,0 +1,7 @@
+pedestrian
+cyclist
+car
+bus
+truck
+traffic_light
+traffic_sign
