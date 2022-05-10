@@ -11,12 +11,12 @@ import numpy as np
 import glob
 
 usage_text = """
-This script compute MEANS and STD of a dataset.
+This script compute MEAN and STD of a dataset.
 
-Usage: python compute_means_std.py dataset_root
+Usage: python compute_mean_std.py dataset_root
 
 For instance,
-    python compute_means_std.py /home/lishangjie/data/KITTI/kitti_dual/images
+    python compute_mean_std.py /home/lishangjie/data/KITTI/kitti_dual/images
 """
 
 if __name__ == '__main__':
@@ -60,5 +60,5 @@ if __name__ == '__main__':
     std_rgb = (std_r, std_g, std_b)
     
     print()
-    print('MEANS (RGB):', mean_rgb)
+    print('MEAN (RGB):', mean_rgb)
     print('STD (RGB):', std_rgb)
